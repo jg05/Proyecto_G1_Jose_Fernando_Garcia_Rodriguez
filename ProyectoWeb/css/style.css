@@ -16,6 +16,15 @@ header{
     height: 200px;
     background: blue;
 }
+.div-cabecera{
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+.div-cabecera img{
+    width: 80%;
+    height: 150px;
+}
 
 /*  ------------   Menu   -------------------  */
 nav{
@@ -24,6 +33,7 @@ nav{
     background: bisque;
     text-align: center;
     line-height: 50px;
+    
 }
 .menu{
     list-style: none;
@@ -39,9 +49,54 @@ nav{
     color: black; 
     font-size: 20px;
 }
-.menu > li  :hover{
+.menu :hover{
     color:white;
     background: black; 
     font-size: 20px;
-    height: 50px;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+/* -------------------- section-------------/*/
+section{
+    float: left;
+    width: 70%;
+    height: 500px;
+}
+.noticia {
+    width: 25%;
+    height: 300px;
+    float: left;
+    background: red;
+}
+.noticia img{
+    width: 80%;
+    height: 150px;
+}
+
+.nacionales{
+    width: 80%;
+    height: 300px;
+    background: dimgrey;
+    margin: 0 auto;
+}
+.nacionales div{
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+.nacionales div img{
+    width: 80%;
+    height: 180px;
+}
+
+
+
+/*   ------------aside-*/
+aside{
+    width: 30%;
+    height: 500px;
+    background: burlywood;
+    float: left;
 }
