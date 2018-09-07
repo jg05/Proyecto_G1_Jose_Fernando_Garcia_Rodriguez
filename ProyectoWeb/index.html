@@ -6,7 +6,9 @@
     <title>Pagina principal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    
     <script src="js/JQuery.js"></script>
+
 </head>
 <body>
     <div class="contenedor-principal">
@@ -15,15 +17,17 @@
                 <img src="img/Noticia.png" id="img-cabecera">
             </div>
             <div class="div-cabecera">
-                <h1>Las Noticias nacionales e internacionales mas relevantes a un click</h1>
+                <h1>Las Noticias nacionales e internacionales mas relevantes</h1>
             </div>
         </header>
         <nav>
-            <ul class="menu">
+            <ul class="menu" id="menu">
                 <li><a href="#nacionales">Nacionales</a></li>
                 <li><a href="#internacionales">Internacionales</a></li>
-                <li><a href="#">Acerca de</a></li>
+                <li><a href="#deportes">Deportes</a></li>
+                <li><a href="#famosos">Famosos</a></li>
             </ul>
+    
         </nav>
         <div>
             <section>
@@ -59,9 +63,8 @@
                         </figcaption>
                     </figure>
                 </article>
-                <article>
+                <article class="noticia-seccion">
                     <h2 id="nacionales">Nacionales</h2>
-                    <h3>Noticias de El Salvador, actualidad y sucesos actualizado minuto a minuto, con una amplia cobertura del acontecer de El Salvador</h3>
                 </article>
                 <article class="nacionales">
                     <div><img src="img/noticias/anep-fusades.png"></div>
@@ -98,7 +101,7 @@
                         <p>El Tribunal Primero de Sentencia de Santa Tecla cerró el caso de cinco cadetes que eran acusados de homicidio culposo,...</p>
                     </div>
                 </article>
-                <article class="Internacionales">
+                <article class="noticia-seccion">
                     <h2 id="internacionales">Internacionales</h2>
                 </article>
                 <article class="nacionales">
@@ -106,6 +109,103 @@
                     <div>
                         <h3>Juez propuesto por Trump para el Tribunal Supremo rechaza saludo de padre de víctima de tiroteo</h3>
                         <p>Brett Kavanaugh, el juez nominado por el presidente Donald Trump para convertirse en magistrado del Tribunal Supremo, rechazó hoy martes...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/brasil-candidato.jpg"></div>
+                    <div>
+                        <h3>¿Quién es el hombre que apuñaló al candidato presidencial de Brasil?</h3>
+                        <p>El ataque se produjo mientras el aspirante presidencial era cargado en hombros en medio de una multitud en Juiz de Fora</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/veracruz.jpg"></div>
+                    <div>
+                        <h3>Hallan 166 cráneos humanos en fosas comunes en Veracruz</h3>
+                        <p>Un grupo de investigadores mexicanos halló este jueves 6 de septiembre  166 cráneos humanos en fosas comunes clandestinas en el...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/burt-raynolds.jpg"></div>
+                    <div>
+                        <h3>Muere leyenda de Hollywood, Burt Reynolds</h3>
+                        <p>En The Last Movie Star, una de sus últimas apariciones en las pantallas, Burt Reynolds encarnaba a una exestrella en horas bajas, un macho...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/ninosmigrantes.jpg"></div>
+                    <div>
+                        <h3>EE.UU. hace caso omiso a acuerdo judicial y prolongará detención de niños migrantes</h3>
+                        <p>El gobierno del presidente Donald Trump anunció este jueves 6 de septiembre que "hará caso omiso" de un acuerdo judicial...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/VENEZUELA.jpg"></div>
+                    <div>
+                        <h3>Las potencias de América Latina urgen a Maduro aceptar ayuda humanitaria</h3>
+                        <p>La primera reunión para abordar de forma conjunta la crisis migratoria de venezolanos terminó con una declaración de 18 puntos en la...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/sin-celular.jpg"></div>
+                    <div>
+                        <h3>Niños y adolescentes franceses regresaron a las clases, pero sin celulares</h3>
+                        <p>Esta semana, unos 12 millones de niños y adolescentes de Francia iniciaron el nuevo ciclo escolar, pero con una novedad:...</p>
+                    </div>
+                </article>
+                <article class="noticia-seccion">
+                    <h2 id="deportes">Deportes</h2>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/mbappe.jpg"></div>
+                    <div>
+                        <h3>Kylian Mbappé es sancionado con tres partidos de suspensión</h3>
+                        <p>El delantero francés del París Saint-Germain (PSG), Kylian Mbappé, fue sancionado este miércoles 5 de septiembre por la Comisión de Disciplina de...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/pique.jpg"></div>
+                    <div>
+                        <h3>Gerard Piqué en aprietos por esta peculiar razón</h3>
+                        <p>La Guardia Urbana de Barcelona, España, denunció el viernes 31 de agosto a Gerard Piqué, cuando circulaba por el distrito del Eixample...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/zidane.jpg"></div>
+                    <div>
+                        <h3>Zidane avisa a Lopetegui: “En el Madrid tienes que ganarlo todo”</h3>
+                        <p>Zinedine Zidane, extécnico del Real Madrid, ha concedido una entrevista en la web de la UEFA en la que habla...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/ap_pistons_cavaliers_basketball.jpg"></div>
+                    <div>
+                        <h3>Esta es la suma que cobrará LeBron James por cada minuto en los Lakers</h3>
+                        <p>A poco más de un mes para el inicio de la temporada de la NBA, se conoció el salario que percibirá el...</p>
+                    </div>
+                </article>
+                <article class="noticia-seccion">
+                    <h2 id="famosos">Famosos</h2>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/marvel.jpg"></div>
+                    <div>
+                        <h3>Quién es Brie Larson, la nueva heroína del Universo Marvel</h3>
+                        <p>Talentosa, versátil, defensora de los derechos de las mujeres, fanática de Star Wars y vegana. Así es Brie Larson, la actriz estadounidense que protagonizará Capitana Marvel ...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/demi-lovato.jpg"></div>
+                    <div>
+                        <h3>“¡Aléjate de Hollywood!” , le dicen a Demi Lovato</h3>
+                        <p>Familiares de la cantante estadounidense Demi Lovato quieren que la joven de 26 años se aleje de todo lo que...</p>
+                    </div>
+                </article>
+                <article class="nacionales">
+                    <div><img src="img/noticias/robin.jpg"></div>
+                    <div>
+                        <h3>Subastan una gran cantidad de objetos del actor Robin Williams</h3>
+                        <p>Los más de 300 objetos ofrecen una panorámica de los diversos gustos y aficiones de Williams y su esposa, productora de...</p>
                     </div>
                 </article>
             </section>
